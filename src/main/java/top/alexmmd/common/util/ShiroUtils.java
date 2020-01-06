@@ -31,7 +31,7 @@ public class ShiroUtils {
     /**
      * 获取当前用户Session
      *
-     * @Author Sans
+     * @Author Alex
      * @CreateTime 2019/6/17 17:03
      * @Return SysUserEntity 用户信息
      */
@@ -42,7 +42,7 @@ public class ShiroUtils {
     /**
      * 用户登出
      *
-     * @Author Sans
+     * @Author Alex
      * @CreateTime 2019/6/17 17:23
      */
     public static void logout() {
@@ -52,7 +52,7 @@ public class ShiroUtils {
     /**
      * 获取当前用户信息
      *
-     * @Author Sans
+     * @Author Alex
      * @CreateTime 2019/6/17 17:03
      * @Return SysUserEntity 用户信息
      */
@@ -63,7 +63,7 @@ public class ShiroUtils {
     /**
      * 删除用户缓存信息
      *
-     * @Author Sans
+     * @Author Alex
      * @CreateTime 2019/6/17 13:57
      * @Param username  用户名称
      * @Param isRemoveSession 是否删除Session

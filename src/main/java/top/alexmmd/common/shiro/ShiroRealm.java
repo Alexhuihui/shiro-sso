@@ -37,7 +37,7 @@ public class ShiroRealm extends AuthorizingRealm {
      * 授权权限
      * 用户进行权限验证时候Shiro会去缓存中找,如果查不到数据,会执行这个方法去查权限,并放入缓存中
      *
-     * @Author Sans
+     * @Author Alex
      * @CreateTime 2019/6/12 11:44
      */
     @Override
@@ -67,7 +67,7 @@ public class ShiroRealm extends AuthorizingRealm {
     /**
      * 身份认证
      *
-     * @Author Sans
+     * @Author Alex
      * @CreateTime 2019/6/12 12:36
      */
     @Override

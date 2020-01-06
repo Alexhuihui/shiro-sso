@@ -46,7 +46,7 @@ public class ShiroConfig {
      * 开启Shiro-aop注解支持
      *
      * @Attention 使用代理方式所以需要开启代码支持
-     * @Author Sans
+     * @Author Alex
      * @CreateTime 2019/6/12 8:38
      */
     @Bean
@@ -59,7 +59,7 @@ public class ShiroConfig {
     /**
      * Shiro基础配置
      *
-     * @Author Sans
+     * @Author Alex
      * @CreateTime 2019/6/12 8:42
      */
     @Bean
@@ -81,7 +81,7 @@ public class ShiroConfig {
     /**
      * 安全管理器
      *
-     * @Author Sans
+     * @Author Alex
      * @CreateTime 2019/6/12 10:34
      */
     @Bean
@@ -99,7 +99,7 @@ public class ShiroConfig {
     /**
      * 身份验证器
      *
-     * @Author Sans
+     * @Author Alex
      * @CreateTime 2019/6/12 10:37
      */
     @Bean
@@ -113,7 +113,7 @@ public class ShiroConfig {
      * 凭证匹配器
      * 将密码校验交给Shiro的SimpleAuthenticationInfo进行处理,在这里做匹配配置
      *
-     * @Author Sans
+     * @Author Alex
      * @CreateTime 2019/6/12 10:48
      */
     @Bean
@@ -130,7 +130,7 @@ public class ShiroConfig {
      * 配置Redis管理器
      *
      * @Attention 使用的是shiro-redis开源插件
-     * @Author Sans
+     * @Author Alex
      * @CreateTime 2019/6/12 11:06
      */
     @Bean
@@ -148,7 +148,7 @@ public class ShiroConfig {
      * 用于往Redis存储权限和角色标识
      *
      * @Attention 使用的是shiro-redis开源插件
-     * @Author Sans
+     * @Author Alex
      * @CreateTime 2019/6/12 12:37
      */
     @Bean
@@ -164,7 +164,7 @@ public class ShiroConfig {
     /**
      * SessionID生成器
      *
-     * @Author Sans
+     * @Author Alex
      * @CreateTime 2019/6/12 13:12
      */
     @Bean
@@ -176,7 +176,7 @@ public class ShiroConfig {
      * 配置RedisSessionDAO
      *
      * @Attention 使用的是shiro-redis开源插件
-     * @Author Sans
+     * @Author Alex
      * @CreateTime 2019/6/12 13:44
      */
     @Bean
@@ -192,7 +192,7 @@ public class ShiroConfig {
     /**
      * 配置Session管理器
      *
-     * @Author Sans
+     * @Author Alex
      * @CreateTime 2019/6/12 14:25
      */
     @Bean

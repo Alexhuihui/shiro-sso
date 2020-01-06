@@ -19,7 +19,7 @@ public class MyShiroException {
      * 处理Shiro权限拦截异常
      * 如果返回JSON数据格式请加上 @ResponseBody注解
      *
-     * @Author Sans
+     * @Author Alex
      * @CreateTime 2019/6/15 13:35
      * @Return Map<Object> 返回结果集
      */
